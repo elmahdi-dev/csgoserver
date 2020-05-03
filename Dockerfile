@@ -17,7 +17,6 @@ RUN set -x \
 	wget=1.20.1-1.1 \
 	ca-certificates=20190110 \
 	vim \
-	dig \
 	&& mkdir -p ${STEAMAPPDIR}/csgo \
 	&& cd ${STEAMAPPDIR} \
 	&& wget https://raw.githubusercontent.com/CM2Walki/CSGO/master/etc/entry.sh \
