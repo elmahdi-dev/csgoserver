@@ -1,2 +1,2 @@
 FROM cm2network/csgo:latest
-RUN apt-get install vim dig
+RUN set -x apt-get install vim dig
